@@ -18,3 +18,6 @@ def test_http_request():
     response = client.get('http://localhost/')
     assert response.status_code == 200
     assert response.json() == {'message': 'Welcome to API Star!'}
+
+# def test_stats():
+

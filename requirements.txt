@@ -2,3 +2,5 @@ apistar
 gunicorn
 meinheld
 ujson
+psutil
+coverage
